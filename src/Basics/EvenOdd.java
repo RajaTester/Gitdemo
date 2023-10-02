@@ -16,9 +16,14 @@ public class EvenOdd {
 		{
 			System.out.println("This is an even:"+ num);
 		}
+		else if(num==1)
+		{
+			System.out.println("This is special num: "+num);
+		}
 		else
 		{
-			System.out.println("This is odd: "+num);
+			System.out.println("This is odd num: "+num);
+			
 		}
 
 	}
