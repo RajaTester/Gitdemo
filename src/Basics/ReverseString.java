@@ -12,15 +12,6 @@ public class ReverseString {
 		}
 		System.out.println(rev);
 		
-
-		int num=1234;
-		int rev1=0;
-		for(;num !=0;num=num/10)
-		{
-			int reminder=num%10;
-			rev1=rev1*10+reminder;
-		}
-		System.out.println(rev1);
 	}
 
 }
