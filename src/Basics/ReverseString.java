@@ -1,17 +1,21 @@
 package Basics;
 
+import java.util.Scanner;
+
 public class ReverseString {
 
 	public static void main(String[] args) 
 	{
-		String x="Rajendra";
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the Word");
+		String st=sc.nextLine();
+		
 		String rev="";
-		for(int i=x.length()-1;i>=0;i--)//decreasing the order
+		for(int i=st.length()-1;i>=0;i--)
 		{
-			rev=rev+x.charAt(i);
+			rev=rev+st.charAt(i);
 		}
 		System.out.println(rev);
-		
 	}
 
 }
