@@ -16,7 +16,7 @@ public class changeIndexofArray {
 		int temp=x[ip];
 		x[ip]=x[fp];
 		x[fp]=temp;
-		System.out.println(Arrays.toString(x));
+		System.out.println(Arrays.toString(x)); 
 
 	}
 
