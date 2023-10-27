@@ -8,8 +8,9 @@ public class ArrayFrequencyDuplicate {
 	{
 
 
-		String[] arr= {"Raja","Raj","Rajendra","Raja","Raj","Raj"};
+		String[] arr= {"Raja","Raj","Rajendra","Raja","Raj","Raj","Rajendra"};
 		Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
 		int i,j,fre;
 		for(i=0;i<arr.length;i++)
 		{

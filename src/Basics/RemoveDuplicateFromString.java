@@ -27,7 +27,7 @@ public class RemoveDuplicateFromString {
 			}
 			if(count==1 && ca[i]!='0')
 			{
-				System.out.println(ca[i]);
+				System.out.print(ca[i]);
 			}
 		}
 

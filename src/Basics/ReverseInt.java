@@ -20,6 +20,14 @@ public class ReverseInt {
 			num=num/10;
 		}
 		System.out.println(rev);
+		
+		if(num==rev)
+		{
+			System.out.println(num+": is a pallendrom");
+		}else
+		{
+			System.out.println(num+": is a not pallendrom");
+		}
 	}
 
 }

@@ -1,5 +1,6 @@
 package Basics;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseString {
@@ -16,6 +17,17 @@ public class ReverseString {
 			rev=rev+st.charAt(i);
 		}
 		System.out.println(rev);
+		
+//		char[] ch=st.toCharArray();
+//		for(int i=ch.length-1;i>=0;i--)
+//		{
+//			System.out.print(ch[i]);
+//		}
+		if(st.equals(rev))
+		{
+			System.out.println("True");
+		}
 	}
+	
 
 }

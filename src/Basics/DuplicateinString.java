@@ -9,7 +9,7 @@ public class DuplicateinString {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter the word");
 		String word=sc.nextLine();
-		System.out.println("Reverse Word is :");
+		System.out.println("Duplicate Word is :");
 		char[] ch=word.toCharArray();
 		for(int i=0;i<word.length();i++)
 		{

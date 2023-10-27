@@ -13,6 +13,7 @@ public class duplicateCharinString {
 		//tolowercase
 		//word=word.toLowerCase();
 		
+		
 		char[] ca=word.toCharArray();
 		int count;
 		for(int i=0;i<ca.length;i++)
